@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#B39DDB"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2">
+
+        <ImageView
+            android:layout_column="0"
+            android:layout_row="0"
+            android:src="@drawable/sports"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:id="@+id/one"
+            android:layout_marginRight="5dp"/>
+        <ImageView
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_marginRight="10dp"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:src="@drawable/share"
+
+            android:id="@+id/two" />
+        <ImageView
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_marginTop="20dp"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:src="@drawable/news"
+            android:id="@+id/three"
+            />
+        <ImageView
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/lifehack"
+            android:id="@+id/four"
+            />
+
+
+    </GridLayout>
+
+
+
+</LinearLayout>
